@@ -29,8 +29,10 @@ npm run dev
 
 ## Live Demo
 
+https://grocery-puce-two.vercel
 
-
+## Screenshot
+![alt text](<Screenshot 2026-06-25 153135_edited.png>)
 
 
 ## Author

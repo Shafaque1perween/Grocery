@@ -11,7 +11,7 @@ const Process = () => {
 
    const renderSteps = steps.map(item=>{
     return(
-            <div className={`flex-1 basis-75 ${item.id % 2 === 0 ? 'md:mt-40': ''} `}>
+            <div className={`flex-1 basis-75 ${item.id % 2 === 0 ? 'md:mt-60': ''} `}>
                 <span className='flex h-18 w-18 mx-auto  rounded-full justify-center items-center text-8xl bg-zinc-800 text-white outline-[3px] outline-offset-7 outline-zinc-800 outline-dashed'>{item.number}</span>
                 
                     <div className='flex items-center gap-x-5 mt-10 '>
@@ -34,14 +34,14 @@ const Process = () => {
 
   return (
     <section>
-        <div className='hidden  md:flex max-w-300 px-10 py-20 mx-auto'>
+        <div className='hidden md:flex flex-col max-w-300 px-10 py-20 mx-auto'>
 
             <div className='w-fit mr-auto px-10'>
                 <Heading highlight="Our"  heading ="Process"/>
             </div>
 
              
-            <div className=" flex justify-between mt-20 bg-amber-600 items-center">
+            <div className=" flex justify-between mt-2  items-center">
                 {renderSteps}
             </div>
 
