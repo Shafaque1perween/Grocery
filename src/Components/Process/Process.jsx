@@ -34,14 +34,14 @@ const Process = () => {
 
   return (
     <section>
-        <div className='hidden md:max-w-300 px-10 py-20 mx-auto'>
+        <div className='hidden  md:flex max-w-300 px-10 py-20 mx-auto'>
 
             <div className='w-fit mr-auto px-10'>
                 <Heading highlight="Our"  heading ="Process"/>
             </div>
 
              
-            <div className=" md:flex justify-between mt-20 bg-amber-600 items-center">
+            <div className=" flex justify-between mt-20 bg-amber-600 items-center">
                 {renderSteps}
             </div>
 
